@@ -20,6 +20,5 @@
  */
 -(NSString *)zjGetPropertyClassStringWithKey :(NSString *)key;
 
-extern NSInteger const objectStringEncode;
 
 @end
