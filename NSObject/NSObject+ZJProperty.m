@@ -3,10 +3,10 @@
 //  XMhouse
 //
 //  Created by Nick on 14-12-26.
-//  Copyright (c) 2014年 xmhouse. All rights reserved.
+//  Copyright (c) 2014年 onebyte. All rights reserved.
 //
 
-#import "NSObject+Property.h"
+#import "NSObject+ZJProperty.h"
 #import <objc/runtime.h>
 
 
@@ -14,7 +14,7 @@ NSInteger const objectStringEncode = NSUTF8StringEncoding;
 
 @implementation NSObject (Property)
 
--(NSArray *)zj_GetPropertyAllKeys
+-(NSArray *)zjGetPropertyAllKeys
 {
     unsigned int outCount, i;
 
@@ -30,7 +30,7 @@ NSInteger const objectStringEncode = NSUTF8StringEncoding;
     return propertyNames;
 }
 
--(NSString *)zj_GetPropertyClassStringWithKey :(NSString *)key
+-(NSString *)zjGetPropertyClassStringWithKey :(NSString *)key
 {
     if (key == nil || [key isEqualToString:@""])
     {
@@ -59,6 +59,7 @@ NSInteger const objectStringEncode = NSUTF8StringEncoding;
     }else{
         str = [str substringWithRange:NSMakeRange(1, str.length -1)];
     }
+    
     return str;
 }
 
