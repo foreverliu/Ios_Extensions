@@ -3,7 +3,7 @@
 //
 //  Created by Nick on 15-1-27.
 //  Copyright (c) 2015年 onebyte. All rights reserved.
-//  颜色转化为图片
+//  颜色转化为图片 
 
 #import "UIImage+ZJColor.h"
 
