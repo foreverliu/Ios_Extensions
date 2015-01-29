@@ -16,7 +16,7 @@
     self.frame = frame;
 }
 
-- (CGFloat)x
+- (CGFloat)x 
 {
     return self.frame.origin.x;
 }

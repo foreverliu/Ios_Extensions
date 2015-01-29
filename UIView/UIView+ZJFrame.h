@@ -23,5 +23,5 @@
 
 @property (assign, nonatomic) CGFloat maxX;
 @property (assign, nonatomic) CGFloat maxY;
-
+ 
 @end
