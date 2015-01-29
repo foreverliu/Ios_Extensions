@@ -3,7 +3,7 @@
 //
 //  Created by Cory on 11/04/07.
 //  Copyright 2011 Cory R. Leach. All rights reserved.
-//
+// 
 
 #import "UIImage+Thumbnail.h"
 
